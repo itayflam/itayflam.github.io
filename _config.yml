@@ -16,33 +16,34 @@ timezone: Asia/Jerusalem
 
 title: Itay Flam # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Computers, Maths & More # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A blog about computers, maths and more.
+  It is a place where I share my thoughts, ideas and projects.
+keywords: # used by seo meta
+  - blog
+  - computers
+  - maths
+  - programming
+  - technology
+  - coding 
+  - distributed systems
+  - science
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://www.itayflam.com"
 
 github:
-  username: github_username # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
+  username: itayflam # change to your GitHub username
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Itay Flam 
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/itayflam
+    - https://www.linkedin.com/in/itay-flam
+    - https://www.instagram.com/itayflam
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,7 +99,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
